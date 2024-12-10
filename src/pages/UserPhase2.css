@@ -1,0 +1,57 @@
+/* For the main container */
+.user-phase2-container {
+  background: url("../assets/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;  /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;  /* Prevents any overflow */
+}
+
+.user-phase2-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  z-index: 1; /* Ensure the content is on top of other elements */
+}
+
+/* Button Styles */
+button {
+  background-color: #007bff; /* Bright blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Navbar style to ensure it appears only once */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* semi-transparent */
+  padding: 10px;
+  text-align: center;
+  z-index: 2; /* Ensure navbar is above the content */
+}

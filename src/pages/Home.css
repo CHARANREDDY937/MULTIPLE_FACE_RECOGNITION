@@ -1,0 +1,134 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+  transition: transform 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.box h2 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.box-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00d1b2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.box-button:hover {
+  background-color: #008c7a;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.home-container {
+  display: flex;
+  justify-content: space-around; /* Increased spacing between boxes */
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  padding: 0 0px; /* Add padding on the sides */
+}
+
+
+
+
+.box {
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+  width: 300px; /* Increased box width */
+  height: 400px; /* Increased box height */
+  padding: 20px;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+  transition: transform 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.box-image {
+  width: 100%; /* Image takes the full width of the box */
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Ensures the image fits well */
+  border-radius: 10px; /* Rounded corners for images */
+  margin-bottom: 15px; /* Spacing below the image */
+}
+
+.box h2 {
+  margin: 10px 0;
+  font-size: 24px; /* Increased font size */
+  font-weight: bold; /* Bold text */
+  color: black; /* Black text color */
+  text-transform: uppercase; /* Converts text to uppercase */
+  letter-spacing: 2px; /* Adds spacing between letters */
+  font-family: 'Arial', sans-serif; /* Custom font family */
+}
+
+
+.box-button {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.box-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  
