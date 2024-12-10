@@ -17,6 +17,7 @@ install all the dependencies with the command
 
 npm init -y
 
-### npm libraries 
+### npm dependencies 
+
 
 npm install express mongoose body-parser bcrypt jsonwebtoken cors
