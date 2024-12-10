@@ -1,7 +1,7 @@
 # Project 
 create a virtual environment and install all the commands using:
 
-pip install -r requirments
+pip install -r requirments.txt
 
 ### Classifier 
 
